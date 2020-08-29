@@ -23,7 +23,14 @@
   background: #040F2E;
   color: white;
   padding: 2em;
+  text-align: justify;
 }
+
+.resume-right-col h2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 /* contact page css */
 

@@ -13,7 +13,7 @@ class Resume extends Component {
       <Cell col={4}>
       <div style={{textAlign: 'center'}}>
       <img
-      src="https://i.ibb.co/N6fNHMy/Icon-1.png"
+      src="https://i.ibb.co/RPyVgz1/Icon-2.png"
       alt="avatar"
       style={{height: '300px'}}
       />
@@ -54,6 +54,7 @@ class Resume extends Component {
 
       <Cell className="resume-right-col" col={8}>
       <a href='/files/GRS_Resume.pdf' download><Button raised colored>Download Resume</Button></a>
+      <br/>
       <h2>Education</h2>
 
 
@@ -124,7 +125,7 @@ class Resume extends Component {
       />
 
       <hr style={{borderTop: '3px solid #ffffff'}} />
-      <h2>Leadership/Community Service</h2>
+      <h2>Leadership / Community Service</h2>
       <ul>
       <li>Led a 100-student conference in Timor Leste to promote development</li>
       <li>Trained a class of 30 migrant workers in Singapore in computers to improve job qualification</li>
