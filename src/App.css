@@ -1,38 +1,173 @@
-.App {
+.header-color {
+  background: #040F2E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #040F2E, #040F2E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #040F2E, #040F2E);
+}
+
+.landing-grid {
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.projects-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #040F2E;
+  color: white;
+  padding: 2em;
+}
+
+/* contact page css */
+
+.contact-body {
+  /* margin: auto; */
+  padding-top: 0;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  background: white;
+  color: black;
+  margin-bottom: 3%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-grid h2 {
+}
+
+.contact-grid p {
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 200%;
+  padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: #040F2E;
+  opacity: 1;
+  width: 65%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+.banner-text h1 {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.banner-text h4 {
+  margin: 1%;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 4em;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-text {
+    background-color: #040F2E;
+    opacity: 1;
+    width: 75%;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .banner-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0;
   }
+  .banner-text h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+  }
+  .banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+
+  .banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+
+  .social-links i {
+    color: white;
+    font-size: 2.5em;
+  }
+
 }
