@@ -14,14 +14,14 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/MyPortfolio/">MyPortfolio</Link>}>
+        <Header className="header-color" title={<a style={{textDecoration: 'none', color: 'white'}} href="https://gaisawant.github.io/MyPortfolio/">MyPortfolio</a>}>
             <Navigation>
                 <a href="https://gaisawant.github.io/resume/">Resume</a>
                 <a href="https://gaisawant.github.io/projects/">Projects</a>
                 <a href="https://gaisawant.github.io/contact/">Contact</a>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/MyPortfolio/">MyPortfolio</Link>}>
+        <Drawer title={<a style={{textDecoration: 'none', color: 'black'}} href="https://gaisawant.github.io/MyPortfolio/">MyPortfolio</a>}>
             <Navigation>
               <a href="https://gaisawant.github.io/resume/">Resume</a>
               <a href="https://gaisawant.github.io/projects/">Projects</a>
