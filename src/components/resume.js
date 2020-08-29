@@ -71,7 +71,7 @@ class Resume extends Component {
       <Experience
       startYear={"May 2020"}
       endYear={"July 2020"}
-      jobName="ThoughTrace | Data Science Summer Intern"
+      jobName="ThoughtTrace | Data Science Summer Intern"
       description1="Applied statistical and algebraic techniques to improve page feature recognition (maps, stamps, signatures, forms)"
       description2="Improved page feature by 112% for maps and implemented systems to identify stamps and forms which were previously unidentified."
       description3="Presented demo of completed project to audience of 50+ full-time engineers."
