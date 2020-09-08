@@ -23,7 +23,7 @@ class Resume extends Component {
       <h2 style={{paddingTop: '0em'}}>Gayatri Sawant</h2>
       <h4 style={{color: 'grey'}}>Computer Science Student</h4>
       <hr style={{borderTop: '3px solid #040F2E', width: '50%'}}/>
-      <p>Computer Science Student at Rice University with a specialization in Data Science. Graduating May 2021.</p>
+      <p>Computer Science student at Rice University with a minor in Data Science and Mathematics. Graduating May 2021.</p>
       <hr style={{borderTop: '3px solid #040F2E', width: '50%'}}/>
 
       <h5>Address</h5>
@@ -127,12 +127,12 @@ class Resume extends Component {
       <hr style={{borderTop: '3px solid #ffffff'}} />
       <h2>Leadership / Community Service</h2>
       <ul>
-      <li>Led a 100-student conference in Timor Leste to promote development</li>
       <li>Trained a class of 30 migrant workers in Singapore in computers to improve job qualification</li>
+      <li>Led a 100-student conference in Timor Leste, in Asia, on social development</li>
       <li>Worked in Epic Arts, Cambodia to explore art skills for the differently-abled</li>
-      <li>Traveled to 50+ countries across the globe to understand international culture</li>
+      <li>Traveled to 40+ countries across the globe to understand international culture</li>
       <li>Student Representative for college</li>
-      <li>Organized orientation for new incoming students</li>
+      <li>Organized orientation-week for incoming students</li>
       </ul>
 
       </Cell>
