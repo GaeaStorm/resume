@@ -53,7 +53,7 @@ class Resume extends Component {
       </Cell>
 
       <Cell className="resume-right-col" col={8}>
-      <a href='/files/GRS_Resume.pdf' download><Button raised colored>Download Resume</Button></a>
+      <a href='https://srv-file6.gofile.io/download/7TcotD/GRS_Resume.pdf' download><Button raised colored>Download Resume</Button></a>
       <br/>
       <h2>Education</h2>
 
