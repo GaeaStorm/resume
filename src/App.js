@@ -37,11 +37,11 @@ class App extends Component {
         <Header transparent className="header-color" title={<a></a>}>
 
         </Header>
-        <Drawer title={<a style={{textDecoration: 'none', color: 'black'}} href="https://gaisawant.github.io/MyPortfolio/">MyPortfolio</a>}>
+        <Drawer title={<a style={{textDecoration: 'none', color: 'black'}} href="https://gaeastorm.github.io/MyPortfolio/">MyPortfolio</a>}>
         <Navigation>
-        <a href="https://gaisawant.github.io/resume/">Resume</a>
-        <a href="https://gaisawant.github.io/projects/">Projects</a>
-        <a href="https://gaisawant.github.io/contact/">Contact</a>
+        <a href="https://gaeastorm.github.io/resume/">Resume</a>
+        <a href="https://gaeastorm.github.io/projects/">Projects</a>
+        <a href="https://gaeastorm.github.io/contact/">Contact</a>
         </Navigation>
         </Drawer>
         <Content>
@@ -56,18 +56,18 @@ class App extends Component {
       return (
         <div className="demo-big-content">
         <Layout>
-        <Header transparent className="header-color" title={<a style={{textDecoration: 'none', color: 'white'}} href="https://gaisawant.github.io/MyPortfolio/">MyPortfolio</a>}>
+        <Header transparent className="header-color" title={<a style={{textDecoration: 'none', color: 'white'}} href="https://gaeastorm.github.io/MyPortfolio/">MyPortfolio</a>}>
         <Navigation>
-        <a href="https://gaisawant.github.io/resume/">Resume</a>
-        <a href="https://gaisawant.github.io/projects/">Projects</a>
-        <a href="https://gaisawant.github.io/contact/">Contact</a>
+        <a href="https://gaeastorm.github.io/resume/">Resume</a>
+        <a href="https://gaeastorm.github.io/projects/">Projects</a>
+        <a href="https://gaeastorm.github.io/contact/">Contact</a>
         </Navigation>
         </Header>
-        <Drawer title={<a style={{textDecoration: 'none', color: 'black'}} href="https://gaisawant.github.io/MyPortfolio/">MyPortfolio</a>}>
+        <Drawer title={<a style={{textDecoration: 'none', color: 'black'}} href="https://gaeastorm.github.io/MyPortfolio/">MyPortfolio</a>}>
         <Navigation>
-        <a href="https://gaisawant.github.io/resume/">Resume</a>
-        <a href="https://gaisawant.github.io/projects/">Projects</a>
-        <a href="https://gaisawant.github.io/contact/">Contact</a>
+        <a href="https://gaeastorm.github.io/resume/">Resume</a>
+        <a href="https://gaeastorm.github.io/projects/">Projects</a>
+        <a href="https://gaeastorm.github.io/contact/">Contact</a>
         </Navigation>
         </Drawer>
         <Content>
